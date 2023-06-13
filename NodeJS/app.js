@@ -11,15 +11,16 @@ const db = knex({
     connection: {
         host: "127.0.0.1",
         port: 3306,
-        user: "rootRobin",
-        password: "rootRobin",
+        user: "JouwGebruikersnaam",
+        password: "JouwGebruikersnaam",
         database: "db_steam"
     }
 });
 
 
-// Schrijf een request dat ons in staat stelt om een game aan te passen.
-// Bijvoorbeeld: Als ik via swagger het request http://localhost:3000/updateGame/3 uitvoer en daarbij de data meegeef dan wordt de data van game met ID 3 aangepast.
+// Schrijf een request dat één game weergeeft op basis van ID.
+//Bijvoorbeeld: Als ik surf naar http://localhost:3000/game/3 dan krijg ik de data van het spel met ID 3.
+
 
 
 
